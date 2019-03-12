@@ -213,7 +213,7 @@ def get_etnews():
 def sendmail_news():
 	if is_windows == False:
 		os.system('/bin/mutt -s "' + today + ' News" admin@admin.org < ' + filename)
-		#os.system('/bin/mutt -s "' + today + ' News" admin@admin.org -cadmin@admin.org -a attach.zip < ' + filename)
+		#os.system('/bin/mutt -s "' + today + ' News" admin@admin.org -c admin@admin.org -a attach.zip < ' + filename)
 	else:
 		pass
 
