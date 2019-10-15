@@ -1,4 +1,9 @@
-// The smallest value moves to leftmost.
+// The smallest value moves to leftmost/forward.
+/* Elapsed Time 
+10 * (10+1)/2 = 55
+N * (N+1)/2
+O(N * N) = O(N^2)
+*/
 
 #include <stdio.h>
 
